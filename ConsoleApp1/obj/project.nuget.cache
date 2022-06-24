@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1izgutah1e1jHQ3Qt1VsrL65QS6VlbduQNCAiEZ7ANa/j6zJSmgeykvdW0ZeENgxXq5EhCeQGTiNsZc0gCtg4Q==",
+  "success": true,
+  "projectFilePath": "E:\\University\\course 2\\МО\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Максим\\.nuget\\packages\\ru.lsreg.math\\1.0.1\\ru.lsreg.math.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

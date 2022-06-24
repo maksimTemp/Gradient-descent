@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "ru.lsreg.math": "1.0.1"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "ru.lsreg.math/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/ru.lsreg.math.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ru.lsreg.math/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kF50gKpwu80H6dByqGoMEVVUSHZ1fLgFgDdcBvVh1TF5OosthUBzcUEYvEqXmItxU3epkQyJAp0m7HgZYbP47w==",
+      "path": "ru.lsreg.math/1.0.1",
+      "hashPath": "ru.lsreg.math.1.0.1.nupkg.sha512"
+    }
+  }
+}

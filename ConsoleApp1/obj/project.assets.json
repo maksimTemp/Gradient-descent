@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ru.lsreg.math/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ru.lsreg.math.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ru.lsreg.math.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ru.lsreg.math/1.0.1": {
+      "sha512": "kF50gKpwu80H6dByqGoMEVVUSHZ1fLgFgDdcBvVh1TF5OosthUBzcUEYvEqXmItxU3epkQyJAp0m7HgZYbP47w==",
+      "type": "package",
+      "path": "ru.lsreg.math/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/ru.lsreg.math.dll",
+        "ru.lsreg.math.1.0.1.nupkg.sha512",
+        "ru.lsreg.math.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ru.lsreg.math >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Максим\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\University\\course 2\\МО\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "E:\\University\\course 2\\МО\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
+      "outputPath": "E:\\University\\course 2\\МО\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "ru.lsreg.math": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
